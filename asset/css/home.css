@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    height: 2000px;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.margin {
+    margin-top: 100px;
+}
+
+.home-screen {
+    margin: 0 auto;
+    height: 800px;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center; 
+}
+
+.home-screen img{
+    width: 100%;
+    height: 50%;
+    filter: brightness(0.4);
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.home-screen .home-main{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    text-align: center;
+    align-content: center;
+    width: 70%;
+}
+
+.home-screen h1{
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.home-screen .home-main input{
+    border-radius: 0px;
+    border: 3px solid black
+    height: 40px;
+}
+
+
+
+.search table{
+    width: 500px;
+}
+
+.smart-container{
+    padding: 2em 0em 2em 0em;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: red;
+    height: 1000px;
+    position: relative;
+}
+
+.col-md-12 .thumbnail{
+    height: 190px;
+    border: 3px solid black
+}
+.col-md-12 .thumbnail h3{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.col-md-12 .text{
+    text-align: justify;
+}
+
+.a{      
+   outline-style: solid;
+   outline-color: black;
+   width: auto;
+   height: auto;
+} 
