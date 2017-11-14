@@ -17,7 +17,7 @@
         display:table;
         margin: 0 auto;
         margin-bottom: 100px;
-        background-image:url(bob%20marley%20-%20museum%20musik.jpg);
+        background-color: 0088CF;
         background-size: 100% 100%;
         align-content: center;
         display:-webkit-box;
@@ -42,6 +42,7 @@
         height: auto;
     }
     
+    
 </style>
 
 <div class="search">
@@ -53,13 +54,13 @@
 </div>
     </div>
 
-<div class="col-md-9">
+<div class="col-md-9" id="b">
 <div class="row">
   <div class="col-md-2">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Smart 1</h3>
         <p>...</p>
       </div>
     </div>
@@ -67,9 +68,9 @@
 
   <div class="col-md-2">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Smart 2</h3>
         <p>...</p>
       </div>
     </div>
@@ -77,9 +78,9 @@
 
   <div class="col-md-2">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Smart 3</h3>
         <p>...</p>
       </div>
     </div>
@@ -89,9 +90,9 @@
 <div class="row">
   <div class="col-md-2">
     <div class="thumbnail">
-        <img src="...">
+        <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Smart 4</h3>
         <p>...</p>
       </div>
     </div>
@@ -99,9 +100,9 @@
 
   <div class="col-md-2">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Smart 5</h3>
         <p>...</p>
       </div>
     </div>
@@ -109,9 +110,9 @@
 
   <div class="col-md-2">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
+        <h3>Smart 6</h3>
         <p>...</p>
       </div>
     </div>
@@ -119,35 +120,35 @@
 </div>
 </div>
 <div class="text">
-aaaaaaaaaaaaasaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaa
+Text
 </div>
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
+        <h3>Judul</h3>
+        <p>Text</p>
       </div>
     </div>
   </div>
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
+        <h3>Judul</h3>
+        <p>Text</p>
       </div>
     </div>
   </div>
 
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="...">
+      <img src="download.png">
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>ieu text</p>
+        <h3>Judul</h3>
+        <p>Text</p>
         
       </div>
     </div>
@@ -163,11 +164,10 @@ aaaaaaaaaaaaasaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaa
 
   <div class="col-sm-12 col-md-8">
     <div class="thumbnail">
-      <img src="asinpeda.jpg" width="800" height="500" id="image">
+      <img src="download.png" width="800" height="500" id="image">
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>ieu text</p>
-        
+        <h3>Acara Terhangat</h3>
+        <p>Text</p>
       </div>
     </div>
   </div>
@@ -175,31 +175,21 @@ aaaaaaaaaaaaasaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaa
     <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+      <img src="download.png" alt="...">
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        
+          <h3>Acara</h3>
+        <p>Text</p>
+          <p><a href="#" class="btn btn-primary" role="button">Selengkapnya</a></p>
       </div>
     </div>
   </div>
         <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+      <img src="download.png" alt="...">
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        
-      </div>
-    </div>
-  </div>
-        <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        
+          <h3>Acara</h3>
+        <p>Text</p>
+          <p><a href="#" class="btn btn-primary" role="button">Selengkapnya</a></p>
       </div>
     </div>
   </div>
