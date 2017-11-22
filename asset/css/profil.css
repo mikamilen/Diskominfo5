@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+
+.home-screen {
+    height: 40em;
+    margin: 0 auto;
+    display:-webkit-box;
+}
+
+.home-screen img{
+    width: 100%;
+    height: 50%;
+    filter: brightness(0.4);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.profil-content{
+	background-color: black;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+h1{
+	margin: 1.5em 0 1em 0;
+}
+
+p{
+	 margin-left:20px; 
+	 margin-right:20px;
+	 text-align: justify;
+}
