@@ -22,10 +22,22 @@ body{
     margin: 0 auto;
 }
 
+
+.profil-content-img p{
+	text-align: center;
+}
+
+.profil-content-img img{
+	width: 75%;
+	height: 100px;
+}
+
 .profil-content{
-	background-color: black;
-	margin-left: 2em;
-	margin-right: 2em;
+	margin: 2em 2em 2em 2em;
+}
+
+.profil-media a{
+	color: black;
 }
 
 h1{
@@ -37,3 +49,4 @@ p{
 	 margin-right:20px;
 	 text-align: justify;
 }
+

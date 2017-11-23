@@ -1,68 +1,70 @@
 <html>
     <head>
+
+
+    <meta charset="UTF-8">
+    <title>Blog Smart City Kota Bandung</title>
+        
         <link rel="stylesheet" href="/Diskominfo5/asset/bootstrap/css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="/Diskominfo5/asset/css/blogpost.css" type="text/css">
+        <link rel="stylesheet" href="/Diskominfo5/asset/font-awesome/css/font-awesome.min.css" type="text/css">
     </head>
     <body>
-        <center class="col-lg-8"><h2>Judul</h2></center>
-        <div class="content col-lg-8">
-            <p>
-                <h4 style="margin-left:20px"><?= date('d M Y')?></h4>
-            </p>
-            <table style="margin-left:20px" border="1">
-                <td>
-                    <th width="1000px" height="400px"></th>
-                </td>
-            </table>
-            <p style="margin-left:20px"><b>
+        <div class="col-lg-8 blog-content-title">Lorem ipsum dolor sit amet </div>
+        <div class="col-lg-8">
+            <div class="blog-content">
+            <div class="blog-content-date">
+                <h4><?= date('d M Y')?></h4>
+            </div>
+            <div class="blog-content-image">
+                <img src="/Diskominfo5/asset/images/event.png" alt="">
+            </div>
+            <div class="blog-content-subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in
-            </b></p>
-            <p style="margin-left:20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p style="margin-left:20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p style="margin-left:20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <p>
-            Bagikan : 
-            <img src=/Diskominfo5/asset/images/g+.png width="30" height="30">
-            <img src=/Diskominfo5/asset/images/facebook.png width="30" height="30">
-            <img src=/Diskominfo5/asset/images/twiter.png width="30" height="30">
-        </p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="blog-share">
+            <p>Bagikan :</p> 
+            <a href="#">
+                <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+            </a>
+            </div>
         </div>
-        
-        <div class="content col-lg-4">
+        </div>
+
+        <div class="blog-side col-lg-4">
             <h4>Text</h4>
-            <table border="1">
-                <td>
-                    <th width="400px" height="200px"></th>
-                </td>
-            </table><br>
-            <h4>Text</h4>
-            <div class="col-lg-6">
-            <table border="1">
-                <td>
-                    <th width="200px" height="100px"></th>
-                </td>
-            </table>
+            <div class="bg-image">
+                <img src="/Diskominfo5/asset/images/event.png" alt="">
             </div>
-            <h5>Text</h5>
-            <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></p><br><br>
-            <div class="col-lg-6">
-            <table border="1">
-                <td>
-                    <th width="200px" height="100px"></th>
-                </td>
-            </table>
+            <br>
+
+            <div class="blog-side-content sm-image">
+                <h4>Text</h4>
+                    <img src="/Diskominfo5/asset/images/event.png" alt="">
+                    <div class="blog-side-text"><?= date('d M Y')?><p>Lorem ipsum dolor sit amet</p></div>
             </div>
-            <h5>Text</h5>
-            <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></p><br><br>
-            <div class="col-lg-6">
-            <table border="1">
-                <td>
-                    <th width="200px" height="100px"></th>
-                </td>
-            </table>
+
+            <div class="blog-side-content sm-image">
+                <h4>Text</h4>
+                    <img src="/Diskominfo5/asset/images/event.png" alt="">
+                    <div class="blog-side-text"><?= date('d M Y')?><p>Lorem ipsum dolor sit amet</p></div>
             </div>
-            <h5>Text</h5>
-            <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></p>
+
+            <div class="blog-side-content sm-image">
+                <h4>Text</h4>
+                    <img src="/Diskominfo5/asset/images/event.png" alt="">
+                    <div class="blog-side-text"><?= date('d M Y')?><p>Lorem ipsum dolor sit amet</p></div>
+            </div>
+
         </div>
         
     </body>

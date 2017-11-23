@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    height: 1200px;
+}
+
+#googleMap {
+	width:100%;
+	height:400px;
+	border: 2px solid black;
+	margin-top: 5em;
+}
+
+.kontak-wrap {
+	margin-top: 3em;
+}
+
+.kontak-wrap .form-group input {
+	width: 60%;
+	border-radius: 0;
+	border: 2px solid black;
+}
+
+
+.kontak-wrap .form-group textarea {
+	border: 2px solid black;
+}
+
+.kontak-wrap button {
+	border-radius: 0;
+	letter-spacing: 2px;
+	width: 15%;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.kontak-information h6 {
+	margin-top: 1em;
+}
+
+.kontak-information .kontak-media {
+	margin-top: 2em;
+	text-align: justify;
+}
+
+.kontak-media span{
+	font-weight: 500;
+}

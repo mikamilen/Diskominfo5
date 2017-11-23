@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Profil Smart City Kota Bandung</title>
     
     <link rel="stylesheet" href="/Diskominfo5/asset/bootstrap/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="/Diskominfo5/asset/css/profil.css" type="text/css">
+    <link rel="stylesheet" href="/Diskominfo5/asset/font-awesome/css/font-awesome.min.css" type="text/css">
 </head>
 <body>
 
@@ -24,37 +25,35 @@
     
     </div>
     
-    <div class="col-lg-3"></div>
-    <div class="col-lg-6">
+    <div class="col-md-12">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
         <div class="col-lg-4">
             <center>
-            <table border="1">
-                <td>
-                    <th width="20px" height="20px"></th>
-                </td>
-            </table>
+            <div class="profil-content-img">
+                <img src="/Diskominfo5/asset/images/event.png" alt="">
+            <p>Gambar</p>
+            </div>
+            </center>
+        </div>
+        <div class="col-lg-4">
+            <center>
+            <div class="profil-content-img">
+                <img src="/Diskominfo5/asset/images/event.png" alt="">
             <p>Gambar</p>
             </center>
         </div>
         <div class="col-lg-4">
             <center>
-            <table border="1">
-                <th width="20px" height="20px"></th>
-            </table>
+             <div class="profil-content-img">
+                <img src="/Diskominfo5/asset/images/event.png" alt="">
             <p>Gambar</p>
             </center>
         </div>
-        <div class="col-lg-4">
-            <center>
-            <table border="1">
-                <th width="20px" height="20px"></th>
-            </table>
-            <p>Gambar</p>
-            </center>
         </div>
+        <div class="col-lg-3"></div>
     </div>
-    <div class="col-lg-3"></div><br><br><br>
-    
+
     <div class="profil-content">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -62,23 +61,31 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque beatae, sed laudantium sequi error, odit, aut explicabo consequatur in consequuntur sapiente vero laborum iure distinctio, facilis qui possimus obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </div>
     <div class="col-lg-3"></div>
-    <div class="col-lg-6">
+
+    <div class="col-lg-6 profil-media">
         <div class="col-lg-4">
             <center>
-            <img src=/Diskominfo5/asset/images/facebook.png width="30" height="30">
+                <a href="#">
+                <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+            </a>
             </center>
         </div>
         <div class="col-lg-4">
             <center>
-            <img src=/Diskominfo5/asset/images/gmail.png width="30" height="30">
+            <a href="#">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            </a>
             </center>
         </div>
         <div class="col-lg-4">
             <center>
-            <img src=/Diskominfo5/asset/images/instagram3.png width="30" height="30">
+            <a href="#">
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a>
             </center>
         </div>
     </div>
+    
     <div class="col-lg-3"></div><br><br>
 
     <div class="profil-content">
